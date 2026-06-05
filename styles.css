@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .nav-menu {
@@ -40,7 +40,7 @@ body {
 .nav-link {
     text-decoration: none;
     color: #333;
-    font-size: 14px;
+    font-size: 16.8px;
     letter-spacing: 0.5px;
     transition: color 0.3s ease;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .nav-title span {
-    font-size: 16px;
+    font-size: 19.2px;
     font-weight: normal;
     letter-spacing: 0.5px;
 }
