@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Georgia', serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -18,7 +18,7 @@ body {
 .navbar {
     background-color: #ffffff;
     padding: 30px 60px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: none;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -66,10 +66,10 @@ body {
 /* Hero Section */
 .hero-section {
     background-color: #ffffff;
-    padding: 80px 60px;
+    padding: 30px 60px 80px 60px;
     margin-bottom: 60px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .hero-content {
@@ -82,13 +82,13 @@ body {
     font-weight: normal;
     letter-spacing: -0.5px;
     color: #333;
-    margin-top: 6px;
+    margin-top: 0;
 }
 
 /* Portfolio Section */
 .portfolio-section {
     padding: 40px 60px 80px;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
 }
 
 .portfolio-grid {
